@@ -15,7 +15,7 @@ sites:
     check: "tcp-ping"
   - name: Imperialis
     url: apex01.imperialis.infinityand.co
-    port: 23602
+    port: 3306
     check: "tcp-ping"
 
 status-website:
@@ -25,8 +25,8 @@ status-website:
   baseUrl: /infinity-status
   logoUrl: https://streamline.thedsi.company/renew/assets/icons/infinity-corp-transparent.png
   name: Infinity Status Tracker
-  introTitle: "**Infinity**."
-  introMessage: Infinity & Co services tracker
+  introTitle: "**Infinity & Co** status tracker."
+  introMessage: This tracker will attempt to track all available Infinity & Co services and provide system and status updates. 
   navbar:
     - title: Tracker
       href: /infinity-status
